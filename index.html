@@ -2,69 +2,115 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Currículo - Daniel Victhor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional - Daniel Victhor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
-    <h1>Daniel Victhor Hipolito Dias</h1>
-    <img src="images.jpeg" alt="foto curriculo" width="200" height="100" />
-    <p><strong>Cargo Pretendido:</strong> Setor administrativo \ Coordenador adm </p>
-    <p><strong>Endereço:</strong> PR, paranagua</p>
-    <p><strong>Telefone:</strong> (41) 997659560 </p>
-    <p><strong>E-mail:</strong> danielvicthor52@gmail.com</p>
-    <p><strong>LinkedIn:</strong> Sem </p>
+    <!-- Menu de Navegação Dinâmico -->
+    <nav class="navbar">
+        <div class="nav-logo">DV</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-    <hr>
+    <!-- Seção Home (Obrigatória) -->
+    <header id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Daniel Victhor Hipolito Dias</h1>
+                <p class="subtitle">Setor Administrativo & Coordenador ADM</p>
+                <p class="headline">Agilidade, organização e foco no crescimento empresarial.</p>
+                <!-- Procure por esta linha e mude para ficar assim: -->
+<a href="Portfólio Profissional - Daniel Victhor.pdf" download="portflio" class="btn-download">
+    <span>Baixar Currículo (PDF)</span>
+</a>
 
-    <h2>Resumo Profissional</h2>
-    <p>Auxiliar administrativo dinâmico e organizado, com experiência recente na área. Com facilidade para aprender novos processos, atuo na gestão de arquivos, controle de documentos e suporte a diferentes setores. Busco oportunidade para aplicar minha dedicação, agilidade e comprometimento no crescimento da empresa.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images.jpeg" alt="Foto de Daniel Victhor">
+            </div>
+        </div>
+    </header>
 
-    <hr>
+    <!-- Seção Extra: Sobre Mim / Experiência -->
+    <section id="sobre" class="section-container">
+        <h2>Resumo & Experiência</h2>
+        <p class="intro-text">Auxiliar administrativo dinâmico e organizado, com experiência recente na área. Com facilidade para aprender novos processos, atuo na gestão de arquivos, controle de documentos e suporte a diferentes setores.</p>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>SpeakingFirst</h3>
+                <p class="cargo">Auxiliar Administrativo (11/2025 até 06/2026)</p>
+                <ul>
+                    <li>Atividades financeiras e comerciais, atendimento ao público e emissão de contratos.</li>
+                    <li>Emissão de Notas Fiscais, cobranças e repescagem de antigos clientes.</li>
+                    <li>Treinamento e auxílio a novos estagiários do setor.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Speaking First (Suporte)</h3>
+                <p class="cargo">Auxiliar Administrativo (11/2025 até 06/2026)</p>
+                <ul>
+                    <li>Criação de planilhas e respostas a mensagens comerciais.</li>
+                    <li>Prática diária de informática e uso do idioma inglês com o público da escola.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    <h2>Experiência Profissional</h2>
+    <!-- Seção Serviços (Obrigatória) -->
+    <section id="servicos" class="section-container bg-alt">
+        <h2>O que eu ofereço</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Gestão Financeira</h3>
+                <p>Emissão de notas fiscais, controle de cobranças, acompanhamento de inadimplência e suporte em rotinas de fluxo de caixa.</p>
+            </div>
+            <div class="card">
+                <h3>Atendimento Comercial</h3>
+                <p>Comunicação direta com o cliente, triagem de mensagens comerciais, repescagem de leads e negociação de contratos.</p>
+            </div>
+            <div class="card">
+                <h3>Suporte Operacional</h3>
+                <p>Criação de planilhas automatizadas, organização de arquivos e integração de novos colaboradores à equipe.</p>
+            </div>
+        </div>
+    </section>
 
-    <h3>SpeakingFirst</h3>
-    <p><strong>Cargo:</strong> Auxiliar. adm</p>
-    <p><strong>Período:</strong> 11\2025 ate 06\2026</p>
-    <p><strong>Principais Atividades:</strong></p>
-    <ul>
-        <li>Exerci as atividades fincaneiras e comerciais atendendo o publico, realizando planilhas respondendo mensagens comerciais e realizando emissao de contratos.</li>
-        <li>Emissao de NF e cobranças e repescagens para antigos clientes.</li>
-        <li>Tambem auxiliei outros estagiarios novos na empresa em meu mesmo setor.</li>
-    </ul>
+    <!-- Seção Portfólio (Obrigatória) -->
+    <section id="portfolio" class="section-container">
+        <h2>Projetos & Formação</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Desenvolvimento de Sistemas</h3>
+                <p class="instituicao">Curso Técnico integrado ao Ensino Médio</p>
+                <p>Aplicação de conceitos de lógica, banco de dados e estruturação de sistemas web para melhoria de processos internos.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Maria de Lourdes Morozowski</h3>
+                <p class="instituicao">Conclusão: 2026</p>
+                <p>Formação acadêmica focada em competências técnicas, trabalho em equipe e soluções tecnológicas.</p>
+            </div>
+        </div>
+    </section>
 
-    <h3>Speaking First</h3>
-    <p><strong>Cargo:</strong> Auxiliar. Adm</p>
-    <p><strong>Período:</strong> 11\2025 ate 06\2026</p>
-    <p><strong>Principais Atividades:</strong></p>
-    <ul>
-        <li>Exerci as atividades fincaneiras e comerciais atendendo o publico, realizando planilhas respondendo mensagens comerciais e realizando emissao de contratos</li>
-        <li>Tenho habilidades com informatica e ingles pelo publico da escola emque trabalhei.</li>
-    </ul>
-
-    <hr>
-
-    
-    <h2>Formação Acadêmica</h2>
-
-    <h3>Desenvolvimento de Sistemas 3\3</h3>
-    <p>Nome da Instituição de Ensino</p>
-    <p>Período: Cursando</p>
-
-    <h3>Ensino Médio / Curso Técnico</h3>
-    <p>Maria de Lourdes Morozowski</p>
-    <p>Ano de Conclusão: 2026</p>
-
-    <hr>
-
-    
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Habilidade Técnica Informática</li>
-        <li>Idioma Inglês Intermediário</li>
-        <li>Competência Trabalho em equipe</li>
-    </ul>
+    <!-- Seção Contato (Obrigatória) -->
+    <section id="contato" class="section-container bg-alt contact-section">
+        <h2>Vamos trabalhar juntos?</h2>
+        <p>Entre em contato para conversarmos sobre oportunidades e soluções administrativas.</p>
+        <div class="contact-links">
+            <a href="tel:41997659560" class="contact-btn">📞 Telefone: (41) 99765-9560</a>
+            <a href="mailto:danielvicthor52@gmail.com" class="contact-btn">✉️ E-mail: danielvicthor52@gmail.com</a>
+            <a href="#" class="contact-btn linkedin-placeholder">💼 LinkedIn: Não possui</a>
+        </div>
+    </section>
 
 </body>
 </html>
